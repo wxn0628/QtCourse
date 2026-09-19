@@ -1,0 +1,21 @@
+# Qt 构建产物
+build-qt6/
+debug/
+release/
+*.o
+*.obj
+*.res
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile
+Makefile.*
+.qmake.stash
+
+# Qt Creator 本地套件配置（每台电脑不同，不入库）
+*.pro.user
+*.pro.user.*
+
+# 系统文件
+Thumbs.db
+.DS_Store
