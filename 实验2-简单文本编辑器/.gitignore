@@ -1,0 +1,24 @@
+# 构建产物
+build/
+debug/
+release/
+*.o
+*.obj
+*.exe
+
+# qmake / moc / uic 生成文件
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.qmake.stash
+.qmake.stash
+
+# Qt Creator 用户级配置（每人不同，不入库）
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# 系统文件
+Thumbs.db
+Desktop.ini
